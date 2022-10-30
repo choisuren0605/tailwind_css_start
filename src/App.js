@@ -1,7 +1,10 @@
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
+   <div className="App">
+    <h1 className="text-3xl font-bold underline italic flex-auto text-blue-600/100 bg-amber-200">
       Hello world!
     </h1>
+   </div>
+    
   )
 }
